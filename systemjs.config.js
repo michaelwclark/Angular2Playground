@@ -10,7 +10,8 @@
   //map tells the System loader where to look for things
   var  map = {
     'app':                        'app',
-
+    'views':                      'app/views',
+    
     '@angular':                   'https://npmcdn.com/@angular', // sufficient if we didn't pin the version
     'angular2-in-memory-web-api': 'https://npmcdn.com/angular2-in-memory-web-api', // get latest
     'rxjs':                       'https://npmcdn.com/rxjs@5.0.0-beta.6',
